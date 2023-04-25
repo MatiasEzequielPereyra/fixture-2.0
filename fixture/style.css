@@ -27,6 +27,7 @@
 --info-50: #71bbd680;
 --info-30: #71bbd644;
 --horario: #e09044;
+--darktheme: rgb(43, 42, 51);
 
 font-family: 'Poppins', sans-serif;
 
@@ -42,6 +43,7 @@ body {
     margin: 0;
     margin-bottom: 0px;
     padding: 20px;
+    margin-top: 150px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -69,7 +71,7 @@ border-radius: 20px;
 .infoPartido {
     background-color: #ffffff;
     border-radius: 18px;
-    border: solid 1px #C4C4C4;
+    border: solid 1.5px #C4C4C4;
     box-shadow: 0 1px 1px 0 rgba(41, 41, 41, 0.45);
     margin: 10px;
     padding: 20px;
@@ -254,6 +256,83 @@ input:focus {
 #imgLpf{
     margin-top: 10px;
     margin-left: 397px;
+}
+
+
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode .topScreen {
+    background-color: var(--primary-dark);
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-dark);
+    z-index: 1000;
+    padding: 0;
+    height: 60px;
+}
+.dark{
+    width: 85px;
+    justify-content:right;
+    margin-left: 1330px;
+    margin-bottom: 10px;
+    position: relative;
+    color: white;
+    background-color: #1a1a1a;
+    border-style: none;
+    border-width: .8px;
+    cursor:pointer;
+    border-radius: 80px;
+    margin-top: 17px;
+}
+
+.dark:hover{
+    border-style: solid;
+    border-color: var(--primary-hover);
+}
+
+.dark-mode .dark{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .resultado1{
+    background-color: #1f1f1f;
+    color: white;
+}
+.dark-mode .resultado2{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.dark-mode #squareLpf  {
+ background-color: white;
+ color:black;
+}
+.dark-mode .dia{
+    color: black;
+}
+.dark-mode .hora{
+    color: black;
+}
+.dark-mode .numeroDia{
+    color: black;
+}
+.dark-mode .nombreTorneo{
+    color: black;
+}
+.dark-mode #lpf{
+    color: black;
+}
+.dark-mode .topSquare{
+    background-color: var(--white-50);
 }
 
 @media screen and (max-width: 767px) {
