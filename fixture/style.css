@@ -1,0 +1,263 @@
+*{
+--primary: #f20000;
+--primary-hover: #ec1a2d;
+--primary-dark: #b30000;
+--primary-light: #fa9797;
+--secondary: #1f1f1f;
+--secondary-90: #1f1f1fdd;
+--secondary-70: #1f1f1faa;
+--secondary-50: #1f1f1f80;
+--secondary-30: #1f1f1f44;
+--red: #f20000;
+--black: #101010;
+--black-50: #10101080;
+--white: #fafafa;
+--white-90: #fafafadd;
+--white-50: #fafafa80;
+--white-30: #fafafa44;
+--card-color: #cacaca;
+--text-color: #000;
+--selection: #c7e7f6;
+--selection-50: #c7e7f680;
+--selection-30: #c7e7f644;
+--success: #e2f8e7;
+--success-50: #4e955e80;
+--success-30: #4e955e44;
+--info: #4595b3;
+--info-50: #71bbd680;
+--info-30: #71bbd644;
+--horario: #e09044;
+
+font-family: 'Poppins', sans-serif;
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line to vertically center the content */
+    flex-wrap: wrap;
+    height: 100vh;
+    column-count: 2; /* Set the number of columns */
+  column-gap: 20px; 
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line to vertically center the content */
+    flex-wrap: wrap;
+    height: 100vh; /* Add this line to set the container height to full viewport height */
+}
+
+.infoPartido:hover{
+border-style: solid;
+border-color: red;
+border-width: 2px;
+border-radius: 20px;
+}
+.infoPartido {
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: solid 1px #C4C4C4;
+    box-shadow: 0 1px 1px 0 rgba(41, 41, 41, 0.45);
+    margin: 10px;
+    padding: 20px;
+    width: calc(50% - 40px);
+    max-width: 500px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.topSquare {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    background-color: #708090;
+    width: 108.9%;
+    height: 60px;
+    margin-left: -20px;
+    margin-right: 10;
+    border-top-right-radius: 18.6px;
+    border-top-left-radius: 18.6px;    
+}
+#squareLpf{
+    background-color: var(--black);
+}
+
+.fechaHora {
+    
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0px;
+    
+}
+
+.numeroDia {
+    font-size: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 1px;
+    position:absolute;
+    font-weight: 600;
+    
+}
+.dia{
+    position: absolute;
+    margin-bottom: 9px;
+    margin-top: 10px;
+    margin-left: 71px;
+}
+.hora{
+    position: absolute;
+    margin-top: 29.5px;
+    margin-left: 71px;
+
+}
+
+.AmbosEscudos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 1%;
+}
+
+.escudo {
+    max-width: 60px;
+    margin: 0 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.vs {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight:bold ;
+    margin-bottom: 5px;
+    margin-right: 33px;
+    margin-left: 40px;
+}
+
+.estadio {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+
+
+.resultado {
+    width: 40px;
+    margin-right: 5px;
+}
+
+
+.torneo{
+    max-width: 40px;
+    margin-top: 6px;
+    
+    margin-left: 302px;
+    text-align:center;
+    
+}
+.nombreTorneo{
+    align-items: flex-end;
+    margin-top: 1.8em;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.contenedorTorneo{
+    margin-bottom: 100px;
+}
+
+.equipos{
+    display: flex;
+    text-align:left;
+    margin-left:11.4%;
+    margin-top:30px;
+    margin-bottom: 5px;
+}
+.estadio{
+    margin-left: 38%;
+}
+.separador{
+    margin-top: 10px;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 1.4rem;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 3%, rgb(139, 30, 30) 69%, rgb(210, 10, 10) 100%);
+}
+.prediccion{  
+    text-align: center;
+}
+
+.inputs{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.resultado1 {
+    width: 35px;
+    height: 35px;
+    margin-right: 100px;
+    border-color: var(--primary-hover);
+    text-align: center;
+    font-size: 1.7em;
+}
+.resultado2{
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+    border-color: var(--primary-hover);
+    text-align: center;
+    font-size: 1.7em;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: var(--primary);
+    border-style: solid;
+}
+#lpf{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: var(--white);
+}
+#imgLpf{
+    margin-top: 10px;
+    margin-left: 397px;
+}
+
+@media screen and (max-width: 767px) {
+    .infoPartido {
+        width: calc(100% - 40px);
+    }
+}
