@@ -8,7 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
             infoPartido.classList.toggle("dark-mode");
         });
     });
+    
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+var iconList = document.getElementById("iconList");
 
+iconList.addEventListener('click',function(){
+    darkButton.classList.toggle('inactive')
+})
+});
