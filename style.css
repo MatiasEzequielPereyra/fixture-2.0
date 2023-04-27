@@ -421,12 +421,65 @@ nav{
 
 
 
-@media screen and (max-width: 767px) {
+
+                /*AVERAGE DEVICES*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     .infoPartido {
         width: calc(100% - 40px);
     }
     #calendarioNavBar{
         font-size: 2em;
+    }
+}
+                /*SMALL DEVICES*/
+@media screen and (max-width: 480px) {
+    .body{
+        margin-top: 0px;
+    }
+    .mainContainer{
+        transform: scale(0.8);
+        margin-top: 0px;
+    }
+    .infoPartido {
+        width: calc(73% - 25px);
+        margin-top: 60px;
+    }
+    #calendarioNavBar{
+       text-align: center;
+        margin-left: 13px;
+       font-size: 33px;
+    }
+    .estadio{
+        margin-left: 90px;
+        
+    }
+    .equipos{
+        margin-left: 10px;
+    }
+    .listIcon{
+        margin-left: 30px;
+        height: 1px;
+        margin-top: -50px;
+    }
+    .linea1,.linea2,.linea3,.linea4{
+        height: 2px;
+    }
+    .escudoCalendario{
+        margin-right: 35px;
+    }
+    .imgTorneo{
+        margin-left:10px ;
+    }
+    .topScreen{
+        top: 0;
+    }
+}
+@media screen and (max-width: 360px) {
+    .infoPartido {
+        width: calc(73% - 25px);
+    }
+    #calendarioNavBar{
+        font-size: 20px;
     }
 }
 
