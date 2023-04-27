@@ -421,7 +421,6 @@ nav{
 
 
 
-
                 /*AVERAGE DEVICES*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .infoPartido {
@@ -434,15 +433,15 @@ nav{
                 /*SMALL DEVICES*/
 @media screen and (max-width: 480px) {
     .body{
-        margin-top: 0px;
+        margin-top: -190px;
+        padding-top : 0px;
     }
     .mainContainer{
         transform: scale(0.8);
-        margin-top: 0px;
+        margin-top: -80px;
     }
     .infoPartido {
-        width: calc(73% - 25px);
-        margin-top: 60px;
+        width: 500px;
     }
     #calendarioNavBar{
        text-align: center;
@@ -450,11 +449,11 @@ nav{
        font-size: 33px;
     }
     .estadio{
-        margin-left: 90px;
+        margin-left: 160px;
         
     }
     .equipos{
-        margin-left: 10px;
+        margin-left: 60px;
     }
     .listIcon{
         margin-left: 30px;
@@ -476,6 +475,7 @@ nav{
         width: 110%;
         margin-left: -21px;
     }
+   
 }
 @media screen and (max-width: 360px) {
     .infoPartido {
@@ -485,4 +485,3 @@ nav{
         font-size: 20px;
     }
 }
-
